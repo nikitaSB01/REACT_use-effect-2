@@ -2,7 +2,7 @@ import { useJsonFetch } from "../hooks/useJsonFetch";
 
 export const DataComponent = () => {
   const [data, loading, error] = useJsonFetch<{ status: string }>(
-    "http://localhost:7070/data"
+    "https://react-use-effect-2-bec.onrender.com/data"
   );
 
   return (
