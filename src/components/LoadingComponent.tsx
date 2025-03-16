@@ -1,4 +1,3 @@
-import React from "react";
 import { useJsonFetch } from "../hooks/useJsonFetch";
 
 export const LoadingComponent = () => {
